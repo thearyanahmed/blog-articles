@@ -53,5 +53,6 @@ Almost every course you do; almost every book you read regarding software develo
 I wrote almost because I’ve never read/heard/been in a book/conference/course that you should write tests. 
 
 ### What’s it like not writing tests
-![](images/what_it_like_not_writing_tests.jpg)
+
+![](https://raw.githubusercontent.com/thearyanahmed/blog-articles/master/images/what_it_like_not_writing_tests.jpg)
 
