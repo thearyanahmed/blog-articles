@@ -16,10 +16,12 @@ I’m not going into too much details, but here are some simple points.
 
 1. ~Avoid manual testing~
 Manual testing is time consuming, and also fault tolerant towards human errors. I’ve seen situations where the “Human tester” gives the thumbs up and in production it blows up 🤯.   
+
 2. ~Confidence~
 Be confident what you have created. Even if something doesn’t work, you’ll know its not gonna work. And knowing what’s not gonna work is way better than not knowing what’s gonna work and what not.
 
-Also you’ll know what works. 😃
+Also you’ll know what works 😃.
+
 4. ~Your code will change~
 Your code will change over time. Even if you working in the best possible way, following scrum/agile or something else and the requirement is clear from the client/product owner and down the line, you’ll see that your feature changes. 
 
