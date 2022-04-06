@@ -1,6 +1,3 @@
-# Writing tests in this part of the world
-#blog
-
 Probably, we’ve seen a meme/quote where it says, 
 > Software development is like being a detective in a crime scene where you are also the criminal.   
 
