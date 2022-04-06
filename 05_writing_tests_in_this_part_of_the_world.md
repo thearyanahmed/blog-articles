@@ -14,15 +14,15 @@ Let’s talk about why we should write tests, though it’s gonna be redundant f
 #### Why we should write tests
 I’m not going into too much details, but here are some simple points.
 
-1. ~Avoid manual testing~
+1. Avoid manual testing
 Manual testing is time consuming, and also fault tolerant towards human errors. I’ve seen situations where the “Human tester” gives the thumbs up and in production it blows up 🤯.   
 
-2. ~Confidence~
+2. Confidence
 Be confident what you have created. Even if something doesn’t work, you’ll know its not gonna work. And knowing what’s not gonna work is way better than not knowing what’s gonna work and what not.
 
 Also you’ll know what works 😃.
 
-4. ~Your code will change~
+4. Your code will change
 Your code will change over time. Even if you working in the best possible way, following scrum/agile or something else and the requirement is clear from the client/product owner and down the line, you’ll see that your feature changes. 
 
 One example could be, once we were building a multi-vendor multi-currency based e-commerce. At the beginning we discussed and got confirmation that we’ll have a base currency and every other currency will be converted. 
@@ -30,10 +30,10 @@ One example could be, once we were building a multi-vendor multi-currency based 
 After implementing the feature, the whole thing changed. In one line. 
 But was it that easy for us to change the whole thing? It had 4 mobile apps and client + merchant + admin panels. 
 
-4. ~Easier Bug Fixes~
+4. Easier Bug Fixes
 Well, run your tests and you get a good number red flags. Your tests will work in some sort of interfaces, not OOP interfaces but a bridge between your user/consumer and your code.
 
-5. ~Self Documentation~
+5. Self Documentation
 Your test will be a documentation of its own. A new developer, someone from a different team or a new recruit can read the tests and get a glimpse of how the application should behave.
 
 There are many other benefits. But, 
@@ -52,6 +52,5 @@ Almost every course you do; almost every book you read regarding software develo
 I wrote almost because I’ve never read/heard/been in a book/conference/course that you should write tests. 
 
 ### What’s it like not writing tests
-
 ![](https://raw.githubusercontent.com/thearyanahmed/blog-articles/master/images/what_it_like_not_writing_tests.jpg)
 
