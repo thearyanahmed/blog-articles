@@ -82,8 +82,7 @@ async fn cook_noodles() {
 
 So, every time we trigger a Future (await), we are allowing our runtime to switch context, and what’s next to do. While the original task is being executed in the back. And when it has completed its logic, it goes in to the ready state, waiting for the run time to be picked up and continue the function.
 
- 
-[image:B8DC5675-844E-4DE8-8C12-9987DCF1F68A-560-0000004C2369D7C5/IMG_7720.jpeg]
+![](https://raw.githubusercontent.com/thearyanahmed/blog-articles/master/images/asynchronous_programming.jpeg)
 
 Here, in my famous drawing, you can see task A and task B. Both have awaits. Task A starts at first, and when it sees the first await, it switches its context and works on task B. Again it sees another await. It goes back to task A (imagine we have only these two tasks). 
 
